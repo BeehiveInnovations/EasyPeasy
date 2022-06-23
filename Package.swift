@@ -10,7 +10,8 @@ let package = Package(
         .tvOS(.v9)
     ],
     products: [
-        .library(name: "EasyPeasy", targets: ["EasyPeasy"])
+        .library(name: "EasyPeasy", targets: ["EasyPeasy"]),
+        .library(name: "EasyPeasyDynamic", type: .dynamic, targets: ["EasyPeasy"])
     ],
     dependencies: [],
     targets: [
