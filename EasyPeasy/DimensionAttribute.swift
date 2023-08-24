@@ -8,6 +8,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+#if os(iOS) || os(tvOS) || os(macOS)
+
 #if os(iOS) || os(tvOS)
 import UIKit
 #else
@@ -120,3 +122,4 @@ public class Size: CompoundAttribute {
     }
 
 }
+#endif

@@ -8,6 +8,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+#if os(iOS) || os(tvOS) || os(macOS)
+
 #if swift(>=4.2) && (os(iOS) || os(tvOS))
     import UIKit
     typealias LayoutConstraintAttribute = NSLayoutConstraint.Attribute
@@ -214,4 +216,6 @@ extension ReferenceAttribute {
     
 }
     
+#endif
+
 #endif
