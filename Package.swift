@@ -5,8 +5,8 @@ import PackageDescription
 let package = Package(
     name: "EasyPeasy",
     platforms: [
-        .iOS(.v12),
-        .macOS(.v10_13),
+        .iOS(.v13),
+        .macOS(.v10_15),
         .tvOS(.v12)
     ],
     products: [
