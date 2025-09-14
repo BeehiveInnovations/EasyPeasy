@@ -35,7 +35,7 @@ class ItemTests: XCTestCase {
         XCTAssertTrue(owningView === superview)
     }
 
-    @available (iOS 9.0, *)
+    @available(iOS 9.0, *)
     func testThatOwningViewReturnsLayoutGuideOwningView() {
         // given
         let view = UIView(frame: CGRect.zero)
@@ -64,7 +64,7 @@ class ItemTests: XCTestCase {
         XCTAssertTrue(constraints == viewA.constraints)
     }
     
-    @available (iOS 9.0, *)
+    @available(iOS 9.0, *)
     func testThatConstraintsArrayReturnsLayoutGuideConstraints() {
         // given
         let view = UIView(frame: CGRect.zero)
@@ -79,7 +79,7 @@ class ItemTests: XCTestCase {
         XCTAssertTrue(constraints == layoutGuide.constraints)
     }
     
-    @available (iOS 9.0, *)
+    @available(iOS 9.0, *)
     func testThatConstraintsArrayReturnsLayoutGuideConstraintsOwnedByGuide() {
         // given
         let view = UIView(frame: CGRect.zero)

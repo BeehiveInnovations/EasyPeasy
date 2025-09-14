@@ -15,7 +15,7 @@ import UIKit
 /**
     Apply operator definitions
  */
-@available (iOS 9.0, *)
+@available(iOS 9.0, *)
 public extension UILayoutGuide {
     
     /**

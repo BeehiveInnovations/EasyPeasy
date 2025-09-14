@@ -15,7 +15,7 @@ import AppKit
 /**
     Apply operator definitions
  */
-@available (OSX 10.11, *)
+@available(OSX 10.11, *)
 extension NSLayoutGuide {
 
     /**

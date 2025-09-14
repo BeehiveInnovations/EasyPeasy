@@ -50,7 +50,7 @@ extension DimensionAttribute {
         the relationship to
         - returns: The current `Attribute` instance
      */
-    @available (OSX 10.11, *)
+    @available(OSX 10.11, *)
     public func like(_ layoutGuide: NSLayoutGuide, _ attribute: ReferenceAttribute? = nil) -> Self {
         self.referenceItem = layoutGuide
         self.referenceAttribute = attribute
@@ -87,7 +87,7 @@ extension Size {
         - parameter layoutGuide: The reference `NSLayoutGuide`
         - returns: The current `CompoundAttribute` instance
      */
-    @available (OSX 10.11, *)
+    @available(OSX 10.11, *)
     public func like(_ layoutGuide: NSLayoutGuide) -> Self {
         self.referenceItem = layoutGuide
         for attr in self.attributes {

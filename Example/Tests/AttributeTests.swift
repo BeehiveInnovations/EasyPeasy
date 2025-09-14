@@ -230,7 +230,7 @@ class Attribute_InstallTests: XCTestCase {
         }
     }
     
-    @available (iOS 9.0, *)
+    @available(iOS 9.0, *)
     func testThatPositionRelationshipWithLayoutGuideIsEstablished() {
         // given
         let superview = UIView(frame: CGRect(x: 0, y: 0, width: 400, height: 1000))
@@ -254,7 +254,7 @@ class Attribute_InstallTests: XCTestCase {
         XCTAssertTrue((superview.constraints.filter { $0 === constraints[0] }).count == 1)
     }
     
-    @available (iOS 9.0, *)
+    @available(iOS 9.0, *)
     func testThatSizeRelationshipWithLayoutGuideIsEstablished() {
         // given
         let superview = UIView(frame: CGRect(x: 0, y: 0, width: 400, height: 1000))
@@ -277,7 +277,7 @@ class Attribute_InstallTests: XCTestCase {
         XCTAssertTrue((superview.constraints.filter { $0 === constraints[0] }).count == 1)
     }
     
-    @available (iOS 9.0, *)
+    @available(iOS 9.0, *)
     func testThatCompoundSizeRelationshipWithLayoutGuideIsEstablished() {
         // given
         let superview = UIView(frame: CGRect(x: 0, y: 0, width: 400, height: 1000))

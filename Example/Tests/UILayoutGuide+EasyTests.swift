@@ -11,7 +11,7 @@
 import XCTest
 @testable import EasyPeasy
 
-@available (iOS 9.0, *)
+@available(iOS 9.0, *)
 class UILayoutGuide_EasyTests: XCTestCase {
 
     var aFlag: Bool = false
